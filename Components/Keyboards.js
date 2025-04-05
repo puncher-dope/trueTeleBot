@@ -4,8 +4,9 @@ const { Keyboard } = require('grammy')
 
 
 export const usersMenu = new Keyboard().resized()
+.placeholder('text')
 .text('Покажи меню').row()
-.text('Мой график смен').row()
+.text('Мой ID').row()
 
 export const menuRestraunt = new Keyboard().resized()
 .text('Меню кухни').row()
@@ -51,3 +52,31 @@ export const positionBar = new Keyboard().resized()
 
 
 // export { usersMenu, menuRestraunt, positionCitchen }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const users = [ 'Лавров','Ким','Иванова',];
